@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>DOOBARA</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Custom Theme files -->
+  <!--Bootstrap-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!--theme-style-->
+  <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+  <!--//theme-style-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="New Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+      Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+  <script type="application/x-javascript">
+    addEventListener("load", function() {
+      setTimeout(hideURLbar, 0);
+    }, false);
+
+    function hideURLbar() {
+      window.scrollTo(0, 1);
+    }
+  </script>
+  <!--fonts-->
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet" media="screen">
+  <!--//fonts-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- start menu -->
+  <link href="css/memenu.css" rel="stylesheet" type="text/css" media="all" />
+  <script type="text/javascript" src="js/memenu.js"></script>
+  <script>
+    $(document).ready(function() {
+      $(".memenu").memenu();
+    });
+  </script>
+  <script src="js/simpleCart.min.js"> </script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="head-top">
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt=""></a>
+        <h3 style="margin-top: 10px; color: red;"><b></b></h3>
+      </div>
+      <div class=" h_menu4">
+        <ul class="memenu skyblue">
+          <li class="active grid"><a class="color8" href="index.html">Home</a></li>
+          <!--<li><a class="color4" href="">Release</a></li>-->
+          <li><a class="color1" href="#">Categories</a>
+            <div class="mepanel">
+              <div class="row">
+                <div class="col1">
+                  <div class="h_nav">
+                    <ul>
+                      <li><a href="">Book Category Name</a></li>
+                      <li><a href="">Book Category Name</a></li>
+                      <li><a href="">Book Category Name</a></li>
+                      <li><a href="">Book Category Name</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a class="color6" href="">Contact</a></li>
+          <li><a class="color6" href="">About Us</a></li>
+        </ul>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+  </div>
+  </div>
+  <!--Slider-->
+  <!-- #region Jssor Slider Begin -->
+  <!-- Generator: Jssor Slider Maker -->
+  <!-- Source: https://www.jssor.com -->
+  <script src="js/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    jssor_1_slider_init = function() {
+
+      var jssor_1_SlideoTransitions = [
+        [{
+          b: -1,
+          d: 1,
+          o: -0.7
+        }],
+        [{
+          b: 900,
+          d: 2000,
+          x: -379,
+          e: {
+            x: 7
+          }
+        }],
+        [{
+          b: 900,
+          d: 2000,
+          x: -379,
+          e: {
+            x: 7
+          }
+        }],
+        [{
+          b: -1,
+          d: 1,
+          o: -1,
+          sX: 2,
+          sY: 2
+        }, {
+          b: 0,
+          d: 900,
+          x: -171,
+          y: -341,
+          o: 1,
+          sX: -2,
+          sY: -2,
+          e: {
+            x: 3,
+            y: 3,
+            sX: 3,
+            sY: 3
+          }
+        }, {
+          b: 900,
+          d: 1600,
+          x: -283,
+          o: -1,
+          e: {
+            x: 16
+          }
+        }]
+      ];
+
+      var jssor_1_options = {
+        $AutoPlay: 1,
+        $SlideDuration: 800,
+        $SlideEasing: $Jease$.$OutQuint,
+        $CaptionSliderOptions: {
+          $Class: $JssorCaptionSlideo$,
+          $Transitions: jssor_1_SlideoTransitions
+        },
+        $ArrowNavigatorOptions: {
+          $Class: $JssorArrowNavigator$
+        },
+        $BulletNavigatorOptions: {
+          $Class: $JssorBulletNavigator$
+        }
+      };
+
+      var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+      /*#region responsive code begin*/
+
+      var MAX_WIDTH = 3000;
+
+      function ScaleSlider() {
+        var containerElement = jssor_1_slider.$Elmt.parentNode;
+        var containerWidth = containerElement.clientWidth;
+
+        if (containerWidth) {
+
+          var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+          jssor_1_slider.$ScaleWidth(expectedWidth);
+        } else {
+          window.setTimeout(ScaleSlider, 30);
+        }
+      }
+
+      ScaleSlider();
+
+      $Jssor$.$AddEvent(window, "load", ScaleSlider);
+      $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+      $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+      /*#endregion responsive code end*/
+    };
+  </script>
+  <link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,regular,italic,700,700italic&subset=latin-ext,greek-ext,cyrillic-ext,greek,vietnamese,latin,cyrillic" rel="stylesheet" type="text/css" />
+  <style>
+    /*jssor slider loading skin spin css*/
+    .jssorl-009-spin img {
+      animation-name: jssorl-009-spin;
+      animation-duration: 1.6s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+
+    @keyframes jssorl-009-spin {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    /*jssor slider bullet skin 032 css*/
+    .jssorb032 {
+      position: absolute;
+    }
+
+    .jssorb032 .i {
+      position: absolute;
+      cursor: pointer;
+    }
+
+    .jssorb032 .i .b {
+      fill: #fff;
+      fill-opacity: 0.7;
+      stroke: #000;
+      stroke-width: 1200;
+      stroke-miterlimit: 10;
+      stroke-opacity: 0.25;
+    }
+
+    .jssorb032 .i:hover .b {
+      fill: #000;
+      fill-opacity: .6;
+      stroke: #fff;
+      stroke-opacity: .35;
+    }
+
+    .jssorb032 .iav .b {
+      fill: #000;
+      fill-opacity: 1;
+      stroke: #fff;
+      stroke-opacity: .35;
+    }
+
+    .jssorb032 .i.idn {
+      opacity: .3;
+    }
+
+    /*jssor slider arrow skin 051 css*/
+    .jssora051 {
+      display: block;
+      position: absolute;
+      cursor: pointer;
+    }
+
+    .jssora051 .a {
+      fill: none;
+      stroke: #fff;
+      stroke-width: 360;
+      stroke-miterlimit: 10;
+    }
+
+    .jssora051:hover {
+      opacity: .8;
+    }
+
+    .jssora051.jssora051dn {
+      opacity: .5;
+    }
+
+    .jssora051.jssora051ds {
+      opacity: .3;
+      pointer-events: none;
+    }
+  </style>
+  <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;visibility:hidden;">
+    <!-- Loading Screen -->
+    <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+      <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+    </div>
+    <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;">
+      <div>
+        <img data-u="image" src="img/1-1.jpg" />
+        <!-- <div data-t="0" data-ts="preserve-3d" style="position:absolute;top:120px;left:75px;width:470px;height:220px;">
+                  <img style="position:absolute;top:0px;left:0px;width:470px;height:220px;max-width:470px;" src="img/c-phone-horizontal.png" />
+                  <div data-ts="preserve-3d" style="position:absolute;top:4px;left:45px;width:379px;height:213px;overflow:hidden;">
+                      <img data-t="1" style="position:absolute;top:0px;left:0px;width:379px;height:213px;max-width:379px;" src="img/c-slide-1.jpg" />
+                      <img data-t="2" style="position:absolute;top:0px;left:379px;width:379px;height:213px;max-width:379px;" src="img/c-slide-3.jpg" />
+                  </div>
+                  <img style="position:absolute;top:4px;left:45px;width:379px;height:213px;max-width:379px;" src="img/c-navigator-horizontal.png" />
+                  <img data-t="3" style="position:absolute;top:476px;left:454px;width:63px;height:77px;max-width:63px;" src="img/hand.png" />
+              </div> -->
+      </div>
+      <div>
+        <img data-u="image" src="img/book2.jpg" />
+      </div>
+      <div>
+        <img data-u="image" src="img/book3.jpg" />
+      </div>
+    </div>
+    <!-- Bullet Navigator -->
+    <div data-u="navigator" class="jssorb032" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+      <div data-u="prototype" class="i" style="width:16px;height:16px;">
+        <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+          <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+        </svg>
+      </div>
+    </div>
+    <!-- Arrow Navigator -->
+    <div data-u="arrowleft" class="jssora051" style="width:65px;height:65px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+      <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+        <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+      </svg>
+    </div>
+    <div data-u="arrowright" class="jssora051" style="width:65px;height:65px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+      <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+        <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+      </svg>
+    </div>
+  </div>
+  <script type="text/javascript">
+    jssor_1_slider_init();
+  </script>
+  <!-- #endregion Jssor Slider End -->
+  <!-- <div class="banner">
+    <div class="container">
+      <script src="js/responsiveslides.min.js"></script>
+      <script>
+        $(function() {
+          $("#slider").responsiveSlides({
+            auto: true,
+            nav: true,
+            speed: 500,
+            namespace: "callbacks",
+            pager: true,
+          });
+        });
+      </script>
+      <div id="top" class="callbacks_container">
+        <ul class="rslides" id="slider">
+          <li>
+
+            <div class="banner-text">
+
+              <h3>YOUR BIGGEST 1st BOOK </h3>
+              <p>Tell something to the audience about that book and how it is doing in the market and why is best selling book and that it is available in your book store and for how much one can buy or get a rent on</p>
+              <a href="">GET IT</a>
+            </div>
+
+          </li>
+          <li>
+
+            <div class="banner-text">
+              <h3> YOUR BIGGEST 2nd BOOK </h3>
+              <p>Tell something to the audience about that book and how it is doing in the market and why is best selling book and that it is available in your book store and for how much one can buy or get a rent on</p>
+              <a href="">GET IT</a>
+
+            </div>
+
+          </li>
+          <li>
+            <div class="banner-text">
+              <h3>YOUR BIGGEST 3rd BOOK</h3>
+              <p>Tell something to the audience about that book and how it is doing in the market and why is best selling book and that it is available in your book store and for how much one can buy or get a rent on</p>
+              <a href="">GET IT</a>
+
+            </div>
+
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div> -->
+  <!--content-->
+  <div class="content">
+    <div class="container">
+      <div class="content-top">
+        <br><br><br><br>
+        <div class="content-top-bottom">
+          <h2>BEST SELLERS</h2>
+          <div class="col-md-6 men">
+            <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/t1.png" alt="">
+              <div class="b-wrapper">
+                <h3 class="b-animate b-from-top top-in   b-delay03 ">
+                  <span>BOOK NAME 1</span>
+                </h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <div class="col-md1 ">
+              <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/t2.png" alt="">
+                <div class="b-wrapper">
+                  <h3 class="b-animate b-from-top top-in1   b-delay03 ">
+                    <span>BOOK NAME 2</span>
+                  </h3>
+                </div>
+              </a>
+            </div>
+            <div class="col-md2">
+              <div class="col-md-6 men1">
+                <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/t3.png" alt="">
+                  <div class="b-wrapper">
+                    <h3 class="b-animate b-from-top top-in2   b-delay03 ">
+                      <span>BOOK NAME 3</span>
+                    </h3>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-6 men2">
+                <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/t4.png" alt="">
+                  <div class="b-wrapper">
+                    <h3 class="b-animate b-from-top top-in2   b-delay03 ">
+                      <span>BOOK NAME 4</span>
+                    </h3>
+                  </div>
+                </a>
+              </div>
+              <div class="clearfix"> </div>
+            </div>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+      </div>
+      <!---->
+      <div class="content-bottom">
+        <h4>
+          <center><b>NECESSITIES </b></center>
+        </h4><br><br>
+        <ul>
+          <li><a href="#"><img class="img-responsive" src="images/lo.png" alt=""></a></li>
+          <li><a href="#"><img class="img-responsive" src="images/lo1.png" alt=""></a></li>
+          <li><a href="#"><img class="img-responsive" src="images/lo2.png" alt=""></a></li>
+          <li><a href="#"><img class="img-responsive" src="images/lo3.png" alt=""></a></li>
+          <li><a href="#"><img class="img-responsive" src="images/lo4.png" alt=""></a></li>
+          <li><a href="#"><img class="img-responsive" src="images/lo5.png" alt=""></a></li>
+          <div class="clearfix"> </div>
+        </ul>
+      </div>
+    </div>
+    <!--Contact Us-->
+    <div class="contact">
+      <div class="container">
+        <h1>Contact</h1>
+        <div class="contact-form">
+          <div class="col-md-8 contact-grid">
+            <form>
+              <input type="text" value="Name" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Name';}">
+              <input type="text" value="Email" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Email';}">
+              <input type="text" value="Book Name" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Book Name';}">
+              <textarea cols="77" rows="6" value=" " onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Message - Rent or Buy';}">Message - Rent or Buy</textarea>
+              <div class="send">
+                <center><input type="submit" value="Send"></center>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-4 contact-in">
+            <center>
+              <div class="address-more">
+                <h4>Address</h4>
+                <p>The company name,</p>
+                <p>Address Line 1</p>
+                <p>Address Line 2 </p>
+              </div>
+              <div class="address-more">
+                <h4></h4>
+                <p>Tel:+(91) 999 999 9999</p>
+                <p>Fax:999-9999-999</p>
+                <p>Email:<a href="mailto:contact@example.com"> contact@example.com</a></p>
+              </div>
+            </center>
+            <center><a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-youtube"></a>
+              <a href="#" class="fa fa-instagram"></a>
+              <a href="#" class="fa fa-whatsapp"></a></center>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <div class="footer-class">
+    <!--<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-linkedin"></a>
+			<a href="#" class="fa fa-youtube"></a>
+			<a href="#" class="fa fa-instagram"></a>
+			<a href="#" class="fa fa-whatsapp"></a><br><br>-->
+    <p>Designed by <a href="https://atechnologiesa.000webhostapp.com" target="">No One</a> </p>
+  </div>
+  </div>
+</body>
+
+</html>
