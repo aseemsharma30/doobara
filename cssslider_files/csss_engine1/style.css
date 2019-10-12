@@ -251,7 +251,7 @@
 }
 .csslider1 .cs_gestures.cs_show {
   visibility: visible;
-  opacity: 1;
+  /*opacity: 1;*/
 }
 .csslider1 .cs_gestures.cs_show img {
   width: 33.333333333333336%;
