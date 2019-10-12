@@ -290,7 +290,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   top: 38%;
   left: 0;
-  opacity: 0.7;
+  /*opacity: 0.7;*/
   z-index: 3;
   text-indent: -9999px;
   overflow: hidden;
